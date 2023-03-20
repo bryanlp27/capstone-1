@@ -138,7 +138,7 @@ def tambahDataPasien():
         inputGenderPasien=input('Masukkan Gender Pasien : ')
         inputPenyakitPasien=input('Masukkan Penyakit Pasien : ')
         
-        print('\nNo BPJS Pasien \t|Nama Pasien \t\t\t|Usia \t\t|Gender \t\t|Penyakit')
+        print('\nNo BPJS Pasien \t|Nama Pasien \t\t\t\t|Usia \t\t|Gender \t\t|Penyakit')
         print(f'{inputUser} \t\t|{inputNamaPasien} \t\t\t|{inputUsiaPasien} \t\t|{inputGenderPasien} \t\t\t|{inputPenyakitPasien}')
         
         print('\nSimpan Data Pasien?')
